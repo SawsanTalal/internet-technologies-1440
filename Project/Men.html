@@ -29,7 +29,7 @@ button{
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 20%;
 }
   
 
@@ -251,8 +251,8 @@ footer {
   .ident-1 secttion {widrh: 25%; float: left;}
 </style>
 </head>
-<body>
 
+<body>
 <header>
   <h2>Cinema PopCorn </h2>
  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
@@ -293,14 +293,13 @@ window.onclick = function(event) {
 </script>
 
   <button  href="SingUp.html" style="width:auto;">Sing Up</button>
-</header>
-
+    <center>
 <button class="btn"><i class="fa fa-home"></i>Home</button>
 <button class="btn">Select your Cinema</button>
 <div class="dropdown">
   <button class="btn" style="border-left:1px solid #0d8bf2">
     <i class="fa fa-caret-down"></i>
-<br />
+<br/>
   </button>
   <div class="dropdown-content">
     <a href="#">RedSea Mall
@@ -310,13 +309,14 @@ window.onclick = function(event) {
 </a>
       </div>
 </div>
+        <br>
   <button class="btn">Select your Movie</button>
 <div class="dropdown">
   <button class="btn" style="border-left:1px solid #0d8bf2">
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-content">
-    <a href="#">البدله
+    <a href="#">Lego
 </a>
     <a href="#">Happy Death Day 2
 </a>
@@ -324,12 +324,15 @@ window.onclick = function(event) {
 </a>
     <a href="#">Aquaman
 </a>
-    <a href="#">The upside
+    <a href="#">Cats
 </a>
-    <a href="#">cold pursuit
+    <a href="#">Ralph breaks the internet
 </a>
   </div>
-</div>
+</div> </center>
+
+</header>
+
 <section>
   </div>
   <nav>
@@ -397,7 +400,7 @@ window.onclick = function(event) {
 </div>
 <footer>
   
- <div class="container">
+<div class="container">
   <div class="row">
     <div class="col-sm-4">
       <h3>Help And Support: </h3>
@@ -416,7 +419,14 @@ window.onclick = function(event) {
       <img src="https://www.kickitbc.com/wp-content/uploads/2018/04/app-download.jpg" style="width:150px;height:75px;"> 
     </div>
   </div>
-</div>                                                                                                                        </footer>
+</div>   
+                                                                                                                      
+    <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Display Date and Time.</button>
+
+<p id="demo"></p>
+            </footer>
 
 </body>
 </html>
